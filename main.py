@@ -38,8 +38,8 @@ def seed_analista():
     if not existe:
         analista = models.Usuario(
             nome="Analista Marketing",
-            username="analista",
-            password_hash=hash_senha("marketing2024"),
+            username="bianca",
+            password_hash=hash_senha("1234567"),
             role="analista",
         )
         db.add(analista)
